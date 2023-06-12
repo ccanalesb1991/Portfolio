@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    color: white;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    font-family: raleway;
+    font-size: 50px/59px;
+    font-weight: 500;
+
+}
+
+head img {
+
+    width: 1280px;
+    height: 727px;
+
+}
+
+.container {
+
+    background-color: black;
+    height: 348px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.containertext {
+
+    font-family: raleway;
+    font-size: 16px/19px;
+    font-weight: 300;
+    margin-top: 35px;
+    width: 475px;
+    height: 197px;
+    
+
+}
+
+.container img {
+
+
+    width: 399px;
+    height: 237px;
+}
+
+.iconospadre {
+
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 60px;
+    
+}
+
+.caracteristicash2 {
+
+    font-family: raleway;
+    font-size: 40px/47px;
+    font-weight:500;
+    text-transform: uppercase;
+    background-color: #1E1A13;
+    padding-right: 3rem;
+
+}
+
+.iconos {
+
+    background-color: #1E1A13;
+    margin-top: 35px;
+    gap: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+.iconos p {
+    font-family: raleway;
+    font-size: 24px/29px;
+    font-weight: 300;
+    margin-top: 10px;
+    
+}
+.iconos3 p {
+    padding-left: 12px;
+}
+
+.galeria {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding: 60px;
+}
+
+.galeria img {
+
+    width: 316px;
+    height: 202px;
+}
+
+footer {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 28px;
+    padding-bottom: 14px;
+}
