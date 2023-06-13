@@ -28,7 +28,12 @@ body {
 
 #about-me {
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
+  
 }
 
 #about-me img {
@@ -38,47 +43,54 @@ body {
 
 /* Mis trabajos */
 
-#skills {
+#experience {
 
-  max-width: max-content;
-}
-
-.experience {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
 }
 
 
-#experience .image-top {
+#portfolio .image-top {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  
 }
 
-.portfolio {
+#portfolio {
 
-  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 
 /* Contacto */
 
-.contact {
+#contact {
 
-  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100vh;
 }
 
 #contact form label {
+  
   font-weight: 700;
   color: #373a3c;
+  
 }
 
-@media (max-width: 768px) {
-  #contact form label {
-    font-weight: 400;
-  }
-}
+
 
 .navbar-brand {
   width: 100px;
