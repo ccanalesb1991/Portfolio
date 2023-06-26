@@ -8,6 +8,11 @@ html {
   scroll-behavior: smooth;
 }
 
+@media ( max-width:1024px) {
+
+  html { scroll-snap-type: none;}
+}
+
 /* Presentación Section */
 .NAVPRES {
 
