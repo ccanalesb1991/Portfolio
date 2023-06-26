@@ -1,12 +1,27 @@
 body {
   font-family: "Raleway", sans-serif;
-
+  
+  
+}
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 
 /* Presentación Section */
 .NAVPRES {
+
   height: 100vh;
+  
+  scroll-snap-align: start;
 }
+
+@media ( max-width: 1024px) {
+  .NAVPRES {
+  height: auto;
+  }
+}
+
 
 #start img {
 
@@ -28,11 +43,19 @@ body {
 #about-me {
 
   display: flex;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  scroll-snap-align: start;
+}
 
+@media ( max-width: 1024px) {
+  #about-me{
+  height: auto;
+  
+  }
 }
 
 #about-me img {
@@ -45,10 +68,21 @@ body {
 #experience {
 
   display: flex;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  scroll-snap-align: start;
+
+}
+
+@media ( max-width: 1024px) {
+  #experience {
+  height: auto;
+  
+  
+  }
 }
 
 
@@ -59,7 +93,15 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  scroll-snap-align: end;
   
+
+}
+@media ( max-width: 1024px) {
+  .holi {
+  height: auto;
+  
+  }
 }
 
 .image-top {
@@ -78,7 +120,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  scroll-snap-align: start;
   height: 100vh;
 }
 
