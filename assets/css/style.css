@@ -17,13 +17,14 @@ html {
 .NAVPRES {
 
   height: 100vh;
-  
   scroll-snap-align: start;
 }
 
 @media ( max-width: 1024px) {
   .NAVPRES {
   height: auto;
+  text-align: justify;
+  
   }
 }
 
